@@ -49,7 +49,7 @@ export const ValidationCheck: React.FC = () => {
   const allChecksPass = Object.values(checks).every(Boolean);
 
   return (
-    <div className="fixed bottom-4 right-4 z-50 bg-glass backdrop-blur-xl border border-glass-border rounded-xl p-4 shadow-elevation max-w-sm">
+    <div className="hidden md:block fixed bottom-4 right-4 z-50 bg-glass backdrop-blur-xl border border-glass-border rounded-xl p-4 shadow-elevation max-w-sm">
       <div className="space-y-3">
         <div className="flex items-center justify-between">
           <h3 className="font-semibold text-sm text-foreground">System Validation (for admin)</h3>
